@@ -1,5 +1,5 @@
 # ml2en (Python, PHP)
-### MLphone is a phonetic algorithm for indexing Malayalam words by their pronounciation, like Metaphone for English. The algorithm generates three Romanized phonetic keys (hashes) of varying phonetic affinities for a given Malayalam word.
+### MLphone is a phonetic algorithm for indexing Malayalam words by their pronunciation, like Metaphone for English. The algorithm generates three Romanized phonetic keys (hashes) of varying phonetic affinities for a given Malayalam word.
 Kailash Nadh, November 2012
 
 Full documentation: http://nadh.in/code/mlphone
@@ -7,14 +7,14 @@ Full documentation: http://nadh.in/code/mlphone
 Licensed under GNU GPL v2 license.
 
 # Intro
-MLphone is a phonetic algorithm for indexing Malayalam words by their pronounciation,
+MLphone is a phonetic algorithm for indexing Malayalam words by their pronunciation,
 like Metaphone for English. The algorithm generates three Romanized phonetic keys (hashes) of varying
 phonetic affinities for a given Malayalam word.
 
 The	algorithm takes into account the context sensitivity of sounds, syntactic and
 phonetic gemination, compounding, modifiers, and other known exceptions to produce
 Romanized phonetic hashes of increasing phonetic affinity that are very faithful
-to the pronounciation of the original Malayalam word.
+to the pronunciation of the original Malayalam word.
 
 <ul>
 	<li>key0 =	a broad phonetic hash comparable to a Metaphone key that
