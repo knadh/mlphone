@@ -71,7 +71,7 @@ class MLphone {
 	);
 
 	// ______ compute hashes
-	function compute($input) {
+	public static function compute($input) {
 
 		// key2 accounts for hard and modified sounds
 		$key2 = self::_process($input);
